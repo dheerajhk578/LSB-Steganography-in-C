@@ -1,0 +1,46 @@
+/*-----------------DOCUMENTATION-----------------------------------------------
+Name: Dheeraj H K
+Starting date: 02/11/2025
+Ending date: 12/11/2025
+
+Description:
+
+This project is a Digital Image Steganography Tool written in C.
+It allows the user to:
+
+Encode (hide) a secret text file inside a BMP image
+
+Decode (extract) the hidden text from the stego image
+
+Validate file formats and handle errors
+
+Preserve the original image quality
+
+The program uses the Least Significant Bit (LSB) technique to hide data inside pixel bits.
+
+Sample Input and Output:
+
+Encoding
+
+Input:
+
+./a.out -e beautiful.bmp secret.txt stego.bmp
+
+
+Output:
+
+Encoding completed successfully.
+Stego image saved as: stego.bmp
+
+
+Decoding
+
+Input:
+
+./a.out -d stego.bmp output.txt
+
+
+Output:
+
+Decoding completed successfully.
+Secret file extracted as: output.txt*/
